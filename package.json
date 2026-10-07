@@ -1,0 +1,14 @@
+{
+  "name": "gripad",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gripad: a Solana-native launchpad protocol. Static site, deploy output in dist/.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "gates": "node tools/gates.mjs",
+    "serve": "node tools/serve.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

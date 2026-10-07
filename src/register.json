@@ -1,0 +1,41 @@
+{
+  "_note": "One record per external fact. state is stated, absent or unconfirmed. Dates stay here, never on the page.",
+  "records": {
+    "chain": {
+      "label": "Chain",
+      "state": "stated",
+      "value": "Solana mainnet",
+      "source": "client statement",
+      "asOf": "2026-10-07"
+    },
+    "rpc": {
+      "label": "RPC",
+      "state": "stated",
+      "value": "https://solana-rpc.publicnode.com",
+      "source": "client statement, batch-level",
+      "asOf": "2026-10-07"
+    },
+    "ca": {
+      "label": "Contract",
+      "state": "absent",
+      "value": null,
+      "format": "base58, 32 to 44 characters",
+      "source": "none yet",
+      "asOf": "2026-10-07"
+    },
+    "x": {
+      "label": "X",
+      "state": "absent",
+      "value": null,
+      "source": "none yet",
+      "asOf": "2026-10-07"
+    },
+    "github": {
+      "label": "GitHub",
+      "state": "absent",
+      "value": null,
+      "source": "none yet",
+      "asOf": "2026-10-07"
+    }
+  }
+}

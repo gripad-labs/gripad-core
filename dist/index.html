@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en" data-theme="dark" data-rpc="https://solana-rpc.publicnode.com">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gripad | Solana launchpad protocol</title>
+<meta name="description" content="Gripad is a Solana-native launchpad protocol. Pick terms for an asset before its first buy and let the program keep them.">
+<meta name="theme-color" content="oklch(0.08 0 0)">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data: https://cdn.dexscreener.com https://dd.dexscreener.com; connect-src 'self' https://solana-rpc.publicnode.com https://api.llama.fi https://api.dexscreener.com; font-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="stylesheet" href="/app.css">
+<script src="/live.js" defer></script>
+<script src="/sim.js" defer></script>
+<script src="/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="top">
+  <div class="top-row">
+    <a class="brand" href="#top" aria-label="Gripad, back to top">
+      <svg class="brand-mark" viewBox="0 0 32 32" width="28" height="28" aria-hidden="true" focusable="false"><rect x="3" y="3" width="26" height="26" rx="7" fill="none" stroke="currentColor" stroke-width="3"/><rect x="11" y="11" width="10" height="10" rx="2.5" fill="currentColor"/></svg>
+      <span class="brand-name">Gripad</span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a class="nav-a" href="#presets">Presets</a>
+      <a class="nav-a" href="#network">Network</a>
+      <a class="nav-a" href="#flow">Flow</a>
+      <a class="nav-a" href="#drill">Drill</a>
+    </nav>
+    <details class="menu">
+      <summary class="menu-btn" aria-label="Open menu"><span class="menu-bars" aria-hidden="true"></span></summary>
+      <div class="menu-panel">
+        <a class="menu-a" href="#presets">Presets</a>
+        <a class="menu-a" href="#network">Network</a>
+        <a class="menu-a" href="#flow">Flow</a>
+        <a class="menu-a" href="#drill">Drill</a>
+      </div>
+    </details>
+    <div class="socials" aria-label="Social links"><span class="soc is-inert" data-soc="x" data-state="absent" role="img" aria-disabled="true" aria-label="X, link not published yet"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span><span class="soc is-inert" data-soc="github" data-state="absent" role="img" aria-disabled="true" aria-label="GitHub, link not published yet"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg></span></div>
+  </div>
+  <div class="ca" id="ca" data-state="stated"><span class="ca-k">Contract</span><button class="ca-v" type="button" data-copy="11111111111111111111111111111111" aria-label="Copy contract address 11111111111111111111111111111111">11111111111111111111111111111111</button><button class="ca-btn" type="button" data-copy="11111111111111111111111111111111">Copy</button></div>
+</header>
+
+<main id="main">
+<section class="hero sec dark" id="top">
+  <div class="stage" aria-hidden="true"><canvas id="field" class="field"></canvas></div>
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow" data-reveal>Launchpad protocol <i class="eyebrow-sep"></i> Solana-native</span>
+      <h1 class="d1" data-reveal>Each release<br>holds firm with <span class="sheen">grip.</span></h1>
+      <p class="lede d2" data-reveal>Gripad lets founders pin down terms ahead of any purchase. Program code keeps that pin fixed, so the pitch given on day one stays the experience traders meet afterward.</p>
+      <div class="cta-row" data-reveal>
+        <a class="btn btn-lit" href="#presets">Browse presets <span aria-hidden="true">&rarr;</span></a>
+        <a class="btn btn-ghost" href="#network">Watch the network</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="ticker glass" data-reveal aria-label="Live network readout">
+      <div class="tick">
+        <span class="tick-k">Current slot</span>
+        <span class="tick-v mono" data-live="slot"><span class="skel skel-num"></span></span>
+      </div>
+      <div class="tick">
+        <span class="tick-k">Chain health</span>
+        <span class="health" data-health data-state="connecting" role="status"><i class="dot"></i><span class="health-t">Connecting</span></span>
+      </div>
+      <div class="tick">
+        <span class="tick-k">Value locked</span>
+        <span class="tick-v mono" data-live="tvl"><span class="skel skel-num"></span></span>
+      </div>
+    </div>
+    <div class="tiles" data-reveal><div class="itile" data-tile="chain"><span class="itile-k">Chain</span><span class="itile-v">Solana main network</span></div><div class="itile" data-tile="contract"><span class="itile-k">Contract</span><span class="itile-v">11111111111111111111111111111111</span></div><div class="itile" data-tile="rpc"><span class="itile-k">RPC</span><span class="itile-v">solana-rpc.publicnode.com</span></div></div>
+  </div>
+</section>
+
+<section class="sec light" id="presets">
+  <div class="wrap">
+    <span class="eyebrow" data-reveal>Presets</span>
+    <h2 data-reveal>Shape how an asset behaves.</h2>
+    <p class="lede" data-reveal>A preset is a compact program with a single duty. Layer several, tune their limits, then settings harden into pool law.</p>
+
+    <div class="picker" data-picker>
+      <div class="shelf-tabs" role="tablist" aria-label="Preset families">
+        <button class="stab" role="tab" aria-selected="true" aria-controls="shelf-entry" id="tab-entry" type="button">Entry</button>
+        <button class="stab" role="tab" aria-selected="false" aria-controls="shelf-exit" id="tab-exit" type="button" tabindex="-1">Exit</button>
+        <button class="stab" role="tab" aria-selected="false" aria-controls="shelf-venue" id="tab-venue" type="button" tabindex="-1">Venue</button>
+        <button class="stab" role="tab" aria-selected="false" aria-controls="shelf-pace" id="tab-pace" type="button" tabindex="-1">Pacing</button>
+      </div>
+
+      <div class="picker-body">
+        <div class="shelves">
+          <div class="shelf tiles-grid" role="tabpanel" id="shelf-entry" aria-labelledby="tab-entry">
+            <button class="tile" type="button" data-detail="wallet-ceiling" aria-pressed="true"><span class="tile-top">Wallet ceiling</span><span class="tile-sub">Caps how much supply one wallet may hold.</span><span class="tile-flag">Entry</span></button>
+            <button class="tile" type="button" data-detail="named-doors" aria-pressed="false"><span class="tile-top">Named doors</span><span class="tile-sub">Only listed wallets may join the opening window.</span><span class="tile-flag">Entry</span></button>
+            <button class="tile" type="button" data-detail="stepped-gate" aria-pressed="false"><span class="tile-top">Stepped gate</span><span class="tile-sub">The ceiling climbs stage by stage as liquidity matures.</span><span class="tile-flag">Entry</span></button>
+          </div>
+          <div class="shelf tiles-grid" role="tabpanel" id="shelf-exit" aria-labelledby="tab-exit" hidden>
+            <button class="tile" type="button" data-detail="cooldown-lane" aria-pressed="false"><span class="tile-top">Cooldown lane</span><span class="tile-sub">Holders rest between two sales.</span><span class="tile-flag">Exit</span></button>
+            <button class="tile" type="button" data-detail="slice-unlock" aria-pressed="false"><span class="tile-top">Slice unlock</span><span class="tile-sub">Early balances free up in measured portions.</span><span class="tile-flag">Exit</span></button>
+            <button class="tile" type="button" data-detail="depth-throttle" aria-pressed="false"><span class="tile-top">Depth throttle</span><span class="tile-sub">No single sale may outweigh the liquidity beneath it.</span><span class="tile-flag">Exit</span></button>
+          </div>
+          <div class="shelf tiles-grid" role="tabpanel" id="shelf-venue" aria-labelledby="tab-venue" hidden>
+            <button class="tile" type="button" data-detail="single-venue" aria-pressed="false"><span class="tile-top">Single venue</span><span class="tile-sub">Trades settle on one chosen market only.</span><span class="tile-flag">Venue</span></button>
+            <button class="tile" type="button" data-detail="pool-roster" aria-pressed="false"><span class="tile-top">Pool roster</span><span class="tile-sub">A short list of approved pools, nothing else.</span><span class="tile-flag">Venue</span></button>
+            <button class="tile" type="button" data-detail="wallet-to-wallet" aria-pressed="false"><span class="tile-top">Hand to hand</span><span class="tile-sub">Direct sends allowed, market routes closed.</span><span class="tile-flag">Venue</span></button>
+          </div>
+          <div class="shelf tiles-grid" role="tabpanel" id="shelf-pace" aria-labelledby="tab-pace" hidden>
+            <button class="tile" type="button" data-detail="quiet-windows" aria-pressed="false"><span class="tile-top">Quiet windows</span><span class="tile-sub">Trading pauses for hours that you name.</span><span class="tile-flag">Pacing</span></button>
+            <button class="tile" type="button" data-detail="slot-spacing" aria-pressed="false"><span class="tile-top">Slot spacing</span><span class="tile-sub">Some slots must pass between two trades by one holder.</span><span class="tile-flag">Pacing</span></button>
+            <button class="tile" type="button" data-detail="slow-open" aria-pressed="false"><span class="tile-top">Slow open</span><span class="tile-sub">Limits start tight, then relax along a curve.</span><span class="tile-flag">Pacing</span></button>
+          </div>
+        </div>
+
+        <aside class="detail glass" aria-live="polite">
+          <article class="dt" id="dt-wallet-ceiling">
+            <h3>Wallet ceiling</h3>
+            <p>Each purchase is weighed against the share its receiver would hold afterward. Cross your line and that purchase simply fails to settle.</p>
+            <div class="chips"><span class="chip">Checks: buys</span><span class="chip">Per holder</span><span class="chip">Set once</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g60"></i></div>
+          </article>
+          <article class="dt" id="dt-named-doors" hidden>
+            <h3>Named doors</h3>
+            <p>A roster of wallets is frozen at publish time. While the opening window lasts, only those wallets may receive supply; afterward the door swings wide.</p>
+            <div class="chips"><span class="chip">Checks: receiver</span><span class="chip">Timed</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g30"></i></div>
+          </article>
+          <article class="dt" id="dt-stepped-gate" hidden>
+            <h3>Stepped gate</h3>
+            <p>The ceiling is a ladder rather than a single figure. Each rung unlocks once liquidity reaches a depth that you choose, keeping early rooms small while depth builds.</p>
+            <div class="chips"><span class="chip">Checks: buys</span><span class="chip">Depth-linked</span><span class="chip">Stages</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g45"></i></div>
+          </article>
+          <article class="dt" id="dt-cooldown-lane" hidden>
+            <h3>Cooldown lane</h3>
+            <p>Once someone sells, a countdown begins. Any second sale that arrives early gets turned away, which slows rapid exits without freezing supply.</p>
+            <div class="chips"><span class="chip">Checks: sells</span><span class="chip">Per holder</span><span class="chip">Countdown</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g75"></i></div>
+          </article>
+          <article class="dt" id="dt-slice-unlock" hidden>
+            <h3>Slice unlock</h3>
+            <p>Balances gained during opening are cut into portions. Each portion turns sellable along separate schedules, so supply trickles outward gradually.</p>
+            <div class="chips"><span class="chip">Checks: sells</span><span class="chip">Schedule</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g50"></i></div>
+          </article>
+          <article class="dt" id="dt-depth-throttle" hidden>
+            <h3>Depth throttle</h3>
+            <p>The program reads liquidity and limits any single sale to a fraction of what sits beneath it. Thin books get small exits, deep books get larger ones.</p>
+            <div class="chips"><span class="chip">Checks: sells</span><span class="chip">Pool-aware</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g35"></i></div>
+          </article>
+          <article class="dt" id="dt-single-venue" hidden>
+            <h3>Single venue</h3>
+            <p>Transfers touching any market except your chosen one are refused. Liquidity stays within one room, keeping price history tidy.</p>
+            <div class="chips"><span class="chip">Checks: route</span><span class="chip">One market</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g90"></i></div>
+          </article>
+          <article class="dt" id="dt-pool-roster" hidden>
+            <h3>Pool roster</h3>
+            <p>Name a handful of approved pools. Supply flows through those and nowhere else, leaving unknown venues without any way to list it.</p>
+            <div class="chips"><span class="chip">Checks: route</span><span class="chip">Short list</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g65"></i></div>
+          </article>
+          <article class="dt" id="dt-wallet-to-wallet" hidden>
+            <h3>Hand to hand</h3>
+            <p>Plain sends between people pass. Anything aimed at an automated market is declined, which suits community coins that should circulate by hand.</p>
+            <div class="chips"><span class="chip">Checks: route</span><span class="chip">Direct only</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g20"></i></div>
+          </article>
+          <article class="dt" id="dt-quiet-windows" hidden>
+            <h3>Quiet windows</h3>
+            <p>Pick recurring hours when supply rests. Within those hours all movement bounces, and outside them everything flows normally.</p>
+            <div class="chips"><span class="chip">Checks: all moves</span><span class="chip">Recurring</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g55"></i></div>
+          </article>
+          <article class="dt" id="dt-slot-spacing" hidden>
+            <h3>Slot spacing</h3>
+            <p>Each holder must let several slots pass between trades. Bots firing many orders at once find that only the first succeeds.</p>
+            <div class="chips"><span class="chip">Checks: all moves</span><span class="chip">Slot-based</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g40"></i></div>
+          </article>
+          <article class="dt" id="dt-slow-open" hidden>
+            <h3>Slow open</h3>
+            <p>All limits begin tight and loosen along a curve you shape. Early hours stay calm by design while supply grows into its freedom.</p>
+            <div class="chips"><span class="chip">Checks: all moves</span><span class="chip">Curve</span><span class="chip">Eases off</span></div>
+            <div class="gauge" aria-hidden="true"><i class="gauge-fill g80"></i></div>
+          </article>
+          <a class="btn btn-dark detail-cta" href="#flow">Jump to flow <span aria-hidden="true">&rarr;</span></a>
+        </aside>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec dark" id="network">
+  <div class="wrap">
+    <span class="eyebrow" data-reveal>Network</span>
+    <h2 data-reveal>The chain, in plain view.</h2>
+    <p class="lede" data-reveal>Three public feeds, read straight from your browser. When one goes quiet the matching value shows a dash instead of a guess.</p>
+
+    <div class="live">
+      <div class="livecard glass" data-reveal>
+        <div class="card-top">
+          <h3 class="card-h">Busiest pairs</h3>
+          <span class="tag">24h volume</span>
+        </div>
+        <ul class="pairs" data-pairs aria-live="polite">
+          <li class="pair skel-row"><span class="skel skel-logo"></span><span class="skel skel-line"></span><span class="skel skel-line short"></span></li>
+          <li class="pair skel-row"><span class="skel skel-logo"></span><span class="skel skel-line"></span><span class="skel skel-line short"></span></li>
+          <li class="pair skel-row"><span class="skel skel-logo"></span><span class="skel skel-line"></span><span class="skel skel-line short"></span></li>
+          <li class="pair skel-row"><span class="skel skel-logo"></span><span class="skel skel-line"></span><span class="skel skel-line short"></span></li>
+          <li class="pair skel-row"><span class="skel skel-logo"></span><span class="skel skel-line"></span><span class="skel skel-line short"></span></li>
+          <li class="pair skel-row"><span class="skel skel-logo"></span><span class="skel skel-line"></span><span class="skel skel-line short"></span></li>
+        </ul>
+      </div>
+
+      <div class="livecard glass" data-reveal>
+        <div class="card-top">
+          <h3 class="card-h">Chain readout</h3>
+          <span class="health" data-health data-state="connecting"><i class="dot"></i><span class="health-t">Connecting</span></span>
+        </div>
+        <dl class="stat-list">
+          <div class="stat"><dt>Slot</dt><dd class="mono big" data-live="slot"><span class="skel skel-num"></span></dd></div>
+          <div class="stat"><dt>Value locked</dt><dd class="mono big" data-live="tvl"><span class="skel skel-num"></span></dd></div>
+          <div class="stat"><dt>Endpoint</dt><dd class="mono small">solana-rpc.publicnode.com</dd></div>
+        </dl>
+        <p class="note">Feeds refresh on their own and rest while this tab is hidden.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec light" id="flow">
+  <div class="wrap">
+    <span class="eyebrow" data-reveal>Flow</span>
+    <h2 data-reveal>Four moves from idea to market.</h2>
+    <div class="facts" data-reveal>
+      <div class="fact"><span class="fact-n mono">01</span><h3>Pick</h3><p>Browse the shelves and choose presets matching the release you want.</p></div>
+      <div class="fact"><span class="fact-n mono">02</span><h3>Tune</h3><p>Adjust the edges on each: sizes, timers, lists, plus whichever curve they follow.</p></div>
+      <div class="fact"><span class="fact-n mono">03</span><h3>Publish</h3><p>Sign once using keys you control. Terms get written straight onto the asset.</p></div>
+      <div class="fact"><span class="fact-n mono">04</span><h3>Hold</h3><p>All movement is inspected in transit. A move violating a term is simply bounced.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec dark" id="drill">
+  <div class="wrap">
+    <span class="eyebrow" data-reveal>Drill</span>
+    <h2 data-reveal>Ninety seconds. Judge each transfer.</h2>
+    <p class="lede" data-reveal>Every card displays a fictional transfer next to the rule it meets. Say YES if the gatekeeper allows it to land, NO if it bounces. All figures are fictional; only the rule shapes mirror those above.</p>
+
+    <div class="drill glass" data-drill data-state="idle" data-reveal>
+      <div class="drill-top">
+        <span class="tag">Simulated</span>
+        <span class="drill-clock mono" data-drill-clock aria-hidden="true">1:30</span>
+      </div>
+      <div class="drill-bar" aria-hidden="true"><i class="drill-fill"></i></div>
+
+      <div class="drill-stage drill-idle" data-drill-idle>
+        <p class="drill-howto">The clock runs for ninety seconds. Each right call earns points, and streaks add a bonus. Keys: <kbd>Y</kbd> for YES, <kbd>N</kbd> for NO.</p>
+        <button class="btn btn-lit" type="button" data-drill-start>Start the clock</button>
+      </div>
+
+      <div class="drill-stage drill-play" data-drill-play hidden>
+        <p class="drill-rule" data-drill-rule></p>
+        <p class="drill-card" data-drill-card aria-live="polite"></p>
+        <div class="drill-answers">
+          <button class="btn drill-yes" type="button" data-drill-yes><span class="drill-word">YES</span><span class="drill-sub">Passes</span></button>
+          <button class="btn drill-no" type="button" data-drill-no><span class="drill-word">NO</span><span class="drill-sub">Bounces</span></button>
+        </div>
+        <p class="drill-note" data-drill-note aria-live="polite">&nbsp;</p>
+      </div>
+
+      <div class="drill-stage drill-end" data-drill-end hidden>
+        <p class="drill-final mono" data-drill-final></p>
+        <p class="drill-grade" data-drill-grade></p>
+        <button class="btn btn-lit" type="button" data-drill-again>Run it again</button>
+      </div>
+
+      <dl class="drill-stats">
+        <div class="dstat"><dt>Score</dt><dd class="mono" data-ds="score">0</dd></div>
+        <div class="dstat"><dt>Streak</dt><dd class="mono" data-ds="streak">0</dd></div>
+        <div class="dstat"><dt>Landed</dt><dd class="mono" data-ds="landed">0</dd></div>
+        <div class="dstat"><dt>Bounced</dt><dd class="mono" data-ds="refused">0</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="sec dark final" id="end">
+  <div class="wrap">
+    <h2 data-reveal>Grip first.<br>Doors second.</h2>
+    <div class="cta-row" data-reveal>
+      <a class="btn btn-lit" href="#presets">Back to presets <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="foot-l"><span class="brand-name">Gripad</span><span class="foot-d">gripad.fun</span></div>
+  <p class="foot-n">A protocol in design. Nothing on this page is an offer or a piece of financial advice.</p>
+</footer>
+</body>
+</html>

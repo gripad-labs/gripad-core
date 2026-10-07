@@ -1,0 +1,35 @@
+/* Single home for every color literal. Achromatic OKLCH: chroma is exactly 0 everywhere. */
+:root {
+  --c-0: oklch(0.08 0 0);
+  --c-1: oklch(0.12 0 0);
+  --c-2: oklch(0.17 0 0);
+  --c-3: oklch(0.24 0 0);
+  --c-4: oklch(0.36 0 0);
+  --c-5: oklch(0.52 0 0);
+  --c-6: oklch(0.68 0 0);
+  --c-7: oklch(0.82 0 0);
+  --c-8: oklch(0.92 0 0);
+  --c-9: oklch(0.97 0 0);
+  --c-10: oklch(1 0 0);
+
+  --bg: var(--c-0);
+  --bg-raised: var(--c-1);
+  --ink: var(--c-9);
+  --ink2: var(--c-7);
+  --ink3: var(--c-6);
+  --line: color-mix(in oklch, var(--c-10) 9%, transparent);
+  --line2: color-mix(in oklch, var(--c-10) 16%, transparent);
+  --glass-top: color-mix(in oklch, var(--c-10) 7%, transparent);
+  --glass-bot: color-mix(in oklch, var(--c-10) 2%, transparent);
+  --glow: color-mix(in oklch, var(--c-10) 22%, transparent);
+  --shadow: color-mix(in oklch, var(--c-0) 90%, transparent);
+
+  --light-bg: var(--c-9);
+  --light-ink: var(--c-1);
+  --light-ink2: var(--c-4);
+  --light-line: color-mix(in oklch, var(--c-0) 14%, transparent);
+
+  --state-ok: var(--c-10);
+  --state-wait: var(--c-6);
+  --state-off: var(--c-4);
+}

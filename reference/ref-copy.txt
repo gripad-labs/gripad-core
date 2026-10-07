@@ -1,0 +1,91 @@
+ | | | | | | | | | | | | | | | Hooked: tokens with rules built in | | | | | | | | | | | | | | | | | | | | | | | | | | | | hooked | | | | Rules | | Docs | | Ideas | | Earn | | My vault | | | | | | | | | | | … | | launches | | Hooked Tokens | | | Launch a token | | Launch | | | | | | | | | | | | | Rules | | Hooked Tokens | | Launch a token | | Docs | | Hook ideas | | Earn | | My vault | | X @hoookedpad ↗ | | | | | | | | | | | Transfer-hook launchpad on Solana | | Every transfer | gets | hooked. | | | Launch a token with rules built into the token itself. Solana runs the hook on every transfer, and any trade that breaks your rule never lands. No bot to babysit, no snapshot, no website to trust. | | | Launch a token | → | | | See the rules | | | | | | | | $ | HOOKED | is live | | | C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE | | | | | | | | | | | | | | | Buy | ↗ | | | Chart | ↗ | | | | | | | Transfers hitting the hook · simulated | | | Checked | 0 | | | Refused | 0 | | | | | | | | | | | | 42 | rules, all live on Solana | mainnet | | | Pick your hook. | | Every one was proven enforcing inside a real Meteora swap on devnet before it went live. | | Pegs, Blocklist, Hot potato, Sliding caps, Rising max per wallet, Sniper-fee cap, Pump App only, Social trading, OpenSea only, Ping Pong, Breathing cap, Momentum, Resonance, Coupled resonator, Market hours, Plague, Custom hook, Editable hook, DAO hook, Hooki, King of the Hill, Lock & earn, Conviction cap, Trading hours and Buyer rewards are the newest | , tested end to end. | | | | | | | AI-assisted hook creation | | | | Custom hook | | | | Editable hook | | | | DAO hook | | | | Hooki | | | | Who can hold | | | | Pegs | | | | Blocklist | | | | Allowlist | | | | Holder-gated | | | | Plague | | | | When you can sell | | | | Holder vesting | | | | Hot potato | | | | Anti-dump caps | | | | Sliding caps | | | | Graduated sell caps | | | | Fair launch | | | | Max per wallet | | | | Chapters | | | | Rising max per wallet | | | | Sniper-fee cap | | | | Trade guard | | | | Anti-bundle | | | | Conviction cap | | | | Where it trades | | | | Venue-locked | | | | DEX-only | | | | FOMO-only buys | | | | Pump App only | | | | Social trading | | | | OpenSea only | | | | P2P-only | | | | When it trades | | | | Ping Pong | | | | Market hours | | | | Trading hours | | | | Physics in tokens | | | | Breathing cap | | | | Momentum | | | | Resonance | | | | Coupled resonator | | | | Who gets paid | | | | King of the Hill | | | | Lock & earn | | | | Buyer rewards | | | | Tithe | | | | Linked tokens | | | | Reactive pair | | | | Entangled | | | | Beacon | | | | | | | | | Pegs | | | New · tested on devnet | | Trades via the Hooked route | | | | The supply becomes a fixed collection of numbered objects, up to 65,535. Every whole unit a wallet holds is one of them, with its own number and art: buying across a unit mints a number, selling below one burns your newest, and sending tokens moves your newest objects with them. Upload your own art at launch, or let Hooked draw one from each number. | | | numbered objects | | your own art | | moves with transfers | | | | Demo is sped up and simulated | | Launch with this rule | → | | | | | | | | | | Already on chain | | Hooked, live. | | Every hook program behind the rules above, deployed on Solana | mainnet | . Open any of them on Solscan to check it yourself. | | | | 17 | | verified rules, each proven enforcing inside a live Meteora swap | | | | 42 | | rules you can launch today, across | 31 | hook programs on | mainnet | | | | 0 | | keys Hooked holds. You sign every step. | | | | | | Core | | | | | Pegs | | | | | 2Jwc…i3Md | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Blocklist | | | | | 8zw1…dFqP | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Allowlist | | | | Venue-locked | | | | Tithe | | | | | 3uxo…99Zs | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Holder-gated | | | | | 2Wsd…tSGx | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Holder vesting | | | | | 3MYb…DHuo | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Hot potato | | | | | CapP…Tgz7 | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Anti-dump caps | | | | | Ft8R…QJ6f | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Sliding caps | | | | | 8uDC…G9VA | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Graduated sell caps | | | | | 9Am6…or2Z | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Max per wallet | | | | | BVM8…5TDC | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Chapters | | | | | A7m1…hQsc | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Rising max per wallet | | | | | 6AH1…Syp3 | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Sniper-fee cap | | | | | BPVE…z7Fp | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Trade guard | | | | | 9Kvw…J31z | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Anti-bundle | | | | | AsqN…LaY8 | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | DEX-only | | | | | 4FYZ…9Xom | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | FOMO-only buys | | | | | 4Tab…qMB5 | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Pump App only | | | | | BXax…Ta28 | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Social trading | | | | | DMoh…Tv8M | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | OpenSea only | | | | | Vqzx…WVPW | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Ping Pong | | | | | Bf7e…84dk | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Breathing cap | | | | Momentum | | | | Resonance | | | | Coupled resonator | | | | | C7Wh…nFmk | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Market hours | | | | | EZet…iJKk | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Plague | | | | Custom hook | | | | Editable hook | | | | DAO hook | | | | Hooki | | | | Conviction cap | | | | | 9eQy…3CnL | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | King of the Hill | | | | | 63VL…KKkD | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Lock & earn | | | | | CndZ…diGF | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Trading hours | | | | | BUwC…G6iY | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | P2P-only | | | | | B9HA…VQaT | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Buyer rewards | | | | | 3MNV…auok | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Reactive pair | | | | | BCiJ…BUxM | | | | | | | | | | | | | Solscan | ↗ | | | | | | Core | | | | | Entangled | | | | Beacon | | | | | 8h3i…BJ7U | | | | | | | | | | | | | Solscan | ↗ | | | | | | | See every launch | → | | | | | | | | The flywheel | | Bought back and | burned. | | | Every trade on a Hooked curve pays a 1% fee. 85% of it buys the Hooked token on the market and burns it; 15% funds development. | How it works | | | | Loading the burn numbers… | | | | | Get | hooked. | | | Name your token, pick its rule, sign. Launches are live on Solana mainnet. | | | Open the launcher | → | | | Browse rules | | | | | | Rules are Token-2022 transfer hooks on Solana. Hooked never holds a key. | | | Rules | | Launches | | Docs | | Ideas | | Launch | | Earn | | My vault | | | | | | @hoookedpad | | $ | HOOKED | | | C1mB…PngE | | | | | | | | | | | | | | | | | | | 
+Cannot delete property 
+Updating absent value
+MAX_VALUE,MIN_VALUE,NaN,NEGATIVE_INFINITY,POSITIVE_INFINITY,EPSILON,MAX_SAFE_INTEGER,MIN_SAFE_INTEGER,isFinite,isInteger,isNaN,isSafeInteger,parseFloat,parseInt,fromString,range
+Wrong number of repetitions
+Argument is not a string
+No one promise resolved
+Body not allowed for GET or HEAD requests
+Network request failed
+Network request failed
+It only trades in FOMO or the Pump app: buys and sells.
+DMohCzuYMQUsmYAiitgtYtSpsBtyEw9UWZha7EGqTv8M
+It only trades on OpenSea: buys and sells.
+CndZxZoVjv2RC9RX7DGfQzQru9a1kfAsEfUVVM37diGF
+Hold without selling and your own buy limit grows.
+Holders vote on the rules, and AI rewrites the hook.
+An AI agent that rewrites your token\'s hook whenever it wants.
+Trades only on the days and hours you set, in any time zone.
+Buys and sells take turns: one buy, then one sell, forever.
+Rising max per wallet
+Max per wallet starts small and rises on a timer.
+Every buy earns the buyer tokens or NFTs from a vault you fill.
+C7Whr2PbMHGAt8J7gpvRVfmUqhW9nBk17qBbZDmdnFmk
+Buying revs it up; a quiet market lets it ring down.
+C7Whr2PbMHGAt8J7gpvRVfmUqhW9nBk17qBbZDmdnFmk
+C7Whr2PbMHGAt8J7gpvRVfmUqhW9nBk17qBbZDmdnFmk
+C7Whr2PbMHGAt8J7gpvRVfmUqhW9nBk17qBbZDmdnFmk
+ATtqAHQiSNx3X1U316uW3aUm6hKvJQtEXdQvrZfCZouH
+A 1-in-N trade mints a big reward payout — you set the odds and the size.
+FiKwxPjoNPx1W4YiBTAtgjvuWnyDpy8A3SFkA2aPiL1U
+A max per wallet that doubles every time enough volume trades.
+Halt trading when SOL/USD falls below your floor.
+We\'ll donate as we grow\\
+Every buy pays the buyer — and whoever referred them.
+Early buyers get in first but vest; everyone after is liquid.
+Hold without selling and your own buy limit grows.
+Diamond-hand dividend
+Hold longer, earn bigger SOL dividends — selling resets your streak.
+Max per wallet (lifetime)
+Moves only through a DEX, never wallet to wallet.
+Trades only through its Meteora pool, never wallet to wallet.
+Your list buys first — then it opens to everyone when it graduates.
+C3vEdPepTPRrJdQ4nQ3ZmhdXCmpKdGRKVUqxduHZWbdR
+Rising max per wallet
+AI writes what passes
+DetermineComponentFrameRoot
+DetermineComponentFrameRoot
+DetermineComponentFrameRoot
+DetermineComponentFrameRoot
+The burn numbers didn't load just now.
+Loading the burn numbers…
+A holder sold out · seat freed
+Ringed wallets are on the list
+Ringed wallets hold the membership token
+Ringed wallets hold your gate token
+Buys only land when made in the Pump app
+Buys only land from wallets that still hold real SOL or USDC
+Buys and sells only land from FOMO or the Pump app
+Swaps land; wallet-to-wallet sends don't
+Only trades through the Meteora pool land
+Every buy earns a reward from the vault
+Illustrative. Pass and refuse rates are made up
+Buy elsewhere: refused
+Buy elsewhere: refused
+Buy: the King earns a share
+Sell: every rule passes
+Sell: refused by rule 2
+Buy: every rule passes
+Buy: refused by rule 1
+Buy: you hold the potato now
+Sell: you hold the potato
+Swap through the pool
+Wallet to wallet: refused
+Wallet to wallet: refused
+Cliff, then a share every hour, day or week · sped up
+Proven in a live swap
+New · tested on devnet
+Trades via the Hooked route
+Demo is sped up and simulated
+Illustrative demo · live on devnet, not yet audited
+Simulated stream of transfers passing through a hook
+Transfers hitting the hook · simulated
+Cannot find the middleware module
+NEXT_HTTP_ERROR_FALLBACK
+The `unstable_revalidate` property is available for general use.\nPlease use `revalidate` instead.
+SegmentHasLoadingBoundary
+SubtreeHasLoadingBoundary
+ParentInlinedIntoSelf
+SubtreeHasInstantFalse
+BAILOUT_TO_CLIENT_SIDE_RENDERING
+HTML_LIMITED_BOT_UA_RE
